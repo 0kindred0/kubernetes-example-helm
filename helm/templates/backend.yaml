@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-backend
-        image: "zhuangy28:f51ddf0"
+        image: "{{ .Values.backend.image }}:{{ .Values.backend.tag }}"
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
