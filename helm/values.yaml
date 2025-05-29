@@ -1,11 +1,11 @@
 frontend:
   image: zhuangy28/frontend
-  tag: '1276e23'
+  tag: 'f51ddf0'
   autoscaling:
     averageUtilization: 90
 backend:
   image: zhuangy28/backend
-  tag: '1276e23'
+  tag: 'f51ddf0'
   autoscaling:
     averageUtilization: 90
 database:
