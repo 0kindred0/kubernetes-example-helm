@@ -1,11 +1,11 @@
 frontend:
   image: zhuangy28/frontend
-  tag: latest
+  tag: 402387b
   autoscaling:
     averageUtilization: 90
 backend:
   image: zhuangy28/backend
-  tag: latest
+  tag: 402387b
   autoscaling:
     averageUtilization: 90
 database:
