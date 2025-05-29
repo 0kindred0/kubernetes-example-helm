@@ -1,11 +1,11 @@
 frontend:
-  image: lyzhang1999/frontend
+  image: zhuangy28/frontend
   tag: latest
   autoscaling:
     averageUtilization: 50
 
 backend:
-  image: lyzhang1999/backend
+  image: zhuangy28/backend
   tag: latest
   autoscaling:
     averageUtilization: 50
