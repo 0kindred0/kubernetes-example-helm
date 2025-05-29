@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: frontend.image
+    value: zhuangy28/frontend
+    forcestring: true
+  - name: frontend.tag
+    value: main-88afafb
+    forcestring: true
