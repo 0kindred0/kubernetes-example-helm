@@ -4,5 +4,5 @@ helm:
     value: zhuangy28/frontend
     forcestring: true
   - name: frontend.tag
-    value: main-d411cb9
+    value: main-e110226
     forcestring: true
