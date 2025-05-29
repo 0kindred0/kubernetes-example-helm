@@ -26,13 +26,6 @@ jobs:
         with:
           username: 'zhuangy28'
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - name: Build backend and push
-        uses: docker/build-push-action@v3
-        with:
-          context: backend
-          push: true
-          platforms: linux/amd64,linux/arm64
-          tags: zhuangy28/backend:${{ steps.vars.outputs.sha_short }}
       - name: Build frontend and push
         uses: docker/build-push-action@v3
         with:
